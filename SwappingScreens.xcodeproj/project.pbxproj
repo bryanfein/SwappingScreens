@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4105D0A1E8C678400FA7715 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4105D091E8C678400FA7715 /* PlaySongVC.swift */; };
 		F45BD6E91E8C6034003497BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD6E81E8C6034003497BF /* AppDelegate.swift */; };
-		F45BD6EB1E8C6034003497BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD6EA1E8C6034003497BF /* ViewController.swift */; };
+		F45BD6EB1E8C6034003497BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD6EA1E8C6034003497BF /* LoginViewController.swift */; };
 		F45BD6EE1E8C6034003497BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45BD6EC1E8C6034003497BF /* Main.storyboard */; };
 		F45BD6F01E8C6034003497BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45BD6EF1E8C6034003497BF /* Assets.xcassets */; };
 		F45BD6F31E8C6034003497BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45BD6F11E8C6034003497BF /* LaunchScreen.storyboard */; };
 		F45BD6FE1E8C6034003497BF /* SwappingScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD6FD1E8C6034003497BF /* SwappingScreensTests.swift */; };
 		F45BD7091E8C6034003497BF /* SwappingScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD7081E8C6034003497BF /* SwappingScreensUITests.swift */; };
+		F45BD7171E8C628E003497BF /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BD7161E8C628E003497BF /* MusicListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4105D091E8C678400FA7715 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 		F45BD6E51E8C6034003497BF /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45BD6E81E8C6034003497BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F45BD6EA1E8C6034003497BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45BD6EA1E8C6034003497BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F45BD6ED1E8C6034003497BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F45BD6EF1E8C6034003497BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F45BD6F21E8C6034003497BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		F45BD7041E8C6034003497BF /* SwappingScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappingScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45BD7081E8C6034003497BF /* SwappingScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingScreensUITests.swift; sourceTree = "<group>"; };
 		F45BD70A1E8C6034003497BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45BD7161E8C628E003497BF /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				F45BD6E81E8C6034003497BF /* AppDelegate.swift */,
-				F45BD6EA1E8C6034003497BF /* ViewController.swift */,
+				F45BD6EA1E8C6034003497BF /* LoginViewController.swift */,
+				F45BD7161E8C628E003497BF /* MusicListVC.swift */,
+				F4105D091E8C678400FA7715 /* PlaySongVC.swift */,
 				F45BD6EC1E8C6034003497BF /* Main.storyboard */,
 				F45BD6EF1E8C6034003497BF /* Assets.xcassets */,
 				F45BD6F11E8C6034003497BF /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45BD6EB1E8C6034003497BF /* ViewController.swift in Sources */,
+				F45BD7171E8C628E003497BF /* MusicListVC.swift in Sources */,
+				F4105D0A1E8C678400FA7715 /* PlaySongVC.swift in Sources */,
+				F45BD6EB1E8C6034003497BF /* LoginViewController.swift in Sources */,
 				F45BD6E91E8C6034003497BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				F45BD70F1E8C6034003497BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45BD7101E8C6034003497BF /* Build configuration list for PBXNativeTarget "SwappingScreensTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				F45BD7121E8C6034003497BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F45BD7131E8C6034003497BF /* Build configuration list for PBXNativeTarget "SwappingScreensUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				F45BD7151E8C6034003497BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
